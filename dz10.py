@@ -10,5 +10,4 @@ for value in set(lst):
     data[value] = (data['whoAmI'] == value).astype(int)
     
 data.drop(columns=['whoAmI'], inplace=True)
-
 data.head()
